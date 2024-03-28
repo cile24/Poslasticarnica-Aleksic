@@ -23,7 +23,9 @@
   }
 }
 @media screen and (max-width: 992px) {
-  
+  #cakeCarousel{
+    height:500px;
+  }
   .card-about {
     max-width: 300px; 
     margin: 0 auto; 
@@ -51,6 +53,9 @@
   }
 }
   @media screen and (max-width:767px) {
+    #cakeCarousel{
+      height:400px;
+    }
     .img-pocetna{
       width:100%;
       
@@ -83,6 +88,9 @@
   
   }
   @media screen and (max-width:592px){
+    #cakeCarousel{
+      height:400px;
+    }
     .img-pocetna{
       width:100%;
       height:auto;
@@ -98,6 +106,9 @@
  
   }
   @media screen and (max-width:431px){
+    #cakeCarousel{
+      height:300px;
+    }
     .footer{
       line-height:35px;
       font-size:10px;
