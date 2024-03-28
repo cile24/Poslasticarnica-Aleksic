@@ -1,0 +1,82 @@
+.mapa{
+  width:70%;
+  margin:0 auto;
+  height:400px
+}
+body {
+  background-color: #f8f9fa; 
+  color: #212529; 
+  min-height: 100vh;
+  position: relative;
+  font-family: "Josefin Sans", sans-serif;
+}
+.body-o-nama{
+  background-color: #fef9f3;
+}
+.carousel-item img{
+  max-width:100%;
+  height:auto;
+}
+img{
+  max-height: 500px;
+}
+.img-pocetna{
+  max-height: 700px;
+}
+
+.navbar {
+  background-color: #ffffff; 
+}
+
+.navbar-brand, .nav-link {
+  color: #ffffff !important; 
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: #f8d7da !important; 
+}
+
+.jumbotron {
+  background-color: #f8d7da; 
+  padding: 2rem;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.cake {
+  overflow: hidden;
+  margin-bottom: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  margin-top:70px;
+}
+
+.cake img {
+  transition: transform 0.3s ease; 
+}
+
+.cake:hover img {
+  transform: scale(1.1); 
+}
+
+.footer {
+  background-color: #343a40; 
+  color: #ffffff; 
+
+  width: 100%;
+  height: 70px; 
+  line-height: 60px; 
+  margin-top: auto;
+}
+
+.author-body{
+  background-color: #f8d7da;
+}
+
+.product-img{
+  max-width: 100%;
+  height:auto;
+}
+
+
+

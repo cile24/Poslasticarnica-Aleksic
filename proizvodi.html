@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=9">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Poslastičarnica, kolač, Aleksić, torte, sladoledi">
+        <meta name="description" content="Zdravo, ovo je naša poslastičarnica, radimo dugi niz godina i nadamo se da ćemo nastaviti tako!">
+        <meta name="author" content="Marko Aleksić">
+        <meta name="Copyright" content="Poslastičarnica Aleksić 2024.">
+        <title>Proizvodi</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/responsive.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="assets/img/shortcut.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand fs-3" href="index.html">Poslastičarnica Aleksić</a>
+                <a href="#" class="navbar-brand fs-4 ms-auto"><i class="fas fa-shopping-cart"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse fs-3" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                        <a class="nav-link" href="index.html">Početna</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="proizvodi.html">Proizvodi</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="o.nama.html">O nama</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="o.autoru.html">O autoru</a>
+                        </li>
+                    </ul>
+                </div>
+              </div>
+        </nav>
+        <div class="container mt-5 mb-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+              <div class="col col-proizvodi">
+                <div class="card h-100">
+                    <img src="assets/img/cake11.jpg" class="card-img-top card-height" alt="coko moko">
+                    <div class="card-body">
+                        <h5 class="card-title fs-3 proizvodi-title">Čoko moko sa borovnicama</h5>
+                        <p class="card-text fs-4 proizvodi-p">Uživajte u sočnom i bogatom čokoladnom iskustvu obogaćenom osvežavajućim borovnicama u našem neodoljivom čoko moku od borovnica!</p>
+                        <p class="card-text fs-5 proizvodi-p">Cena 5599 din</p>
+                        <a href="#" class="btn btn-danger fs-4 proizvodi-btn" data-bs-toggle="modal" data-bs-target="#addToCartModal">Kupi</a>
+                    </div>
+                </div>
+            </div>  
+            <div class="modal fade" id="addToCartModal" tabindex="-1" role="dialog" aria-labelledby="addToCartModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="addToCartModalLabel">Proizvod dodat u korpu</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Vaš proizvod je uspešno dodat u korpu. Da li želite da nastavite kupovinu?</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Nastavi kupovinu</button>
+                    <a href="checkout.php" class="btn btn-primary" data-dismiss="modal">Nastavi na kasu</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col col-proizvodi">
+              <div class="card h-100">
+                  <img src="assets/img/cake4.jpg" class="card-img-top card-height" alt="ciz kejk">
+                  <div class="card-body">
+                      <h5 class="card-title fs-3 proizvodi-title">Cheese cake</h5>
+                      <p class="card-text fs-4 proizvodi-p">Uživajte u neodoljivom spoju kremastog sira i hrskavog keksa uz naš izuzetno sočan i ukusan cheesecake u poslastičarnici Aleksic.</p>
+                      <p class="card-text fs-5 proizvodi-p">Cena 499din/komad</p>
+                      <a href="#" class="btn btn-danger fs-4 proizvodi-btn" data-bs-toggle="modal" data-bs-target="#addToCartModal2">Kupi</a>
+                  </div>
+              </div>
+          </div>
+          <div class="modal fade" id="addToCartModal2" tabindex="-1" role="dialog" aria-labelledby="addToCartModalLabel2" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="addToCartModalLabel2">Proizvod dodat u korpu</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Vaš proizvod je uspešno dodat u korpu. Da li želite da nastavite kupovinu?</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Nastavi kupovinu</button>
+                  <a href="checkout.php" class="btn btn-primary">Nastavi na kasu</a>
+                </div>
+              </div>
+            </div>
+          </div>
+              <div class="col col-proizvodi">
+                <div class="card h-100">
+                    <img src="assets/img/cake12.jpg" class="card-img-top card-height" alt="jagodica bobica">
+                    <div class="card-body">
+                        <h5 class="card-title fs-3 proizvodi-title">Malinica Bobica</h5>
+                        <p class="card-text fs-4 proizvodi-p">Osetite savršeno sladak spoj malina, bobica i keksa u našoj torti "Malinica bobica" u poslastičarnici Aleksić! Savršen izbor za svaki dan, kao i povoljna cena!</p>
+                        <p class="card-text fs-5 proizvodi-p">Cena 3200 din</p>
+                        <a href="#" class="btn btn-danger fs-4 proizvodi-btn" data-bs-toggle="modal" data-bs-target="#addToCartModal3">Kupi</a>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="addToCartModal3" tabindex="-1" role="dialog" aria-labelledby="addToCartModalLabel3" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="addToCartModalLabel3">Proizvod dodat u korpu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Vaš proizvod je uspešno dodat u korpu. Da li želite da nastavite kupovinu?</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Nastavi kupovinu</button>
+                    <a href="checkout.php" class="btn btn-primary">Nastavi na kasu</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col col-proizvodi">
+              <div class="card h-100">
+                  <img src="assets/img/cake9.jpg" class="card-img-top card-height" alt="ruska kapica">
+                  <div class="card-body">
+                      <h5 class="card-title fs-3 proizvodi-title">Ruska kapica</h5>
+                      <p class="card-text fs-4 proizvodi-p">Uživajte u bogatom ukusu čokolade, lešnika i hrskavog pralina u našoj ukusnoj Ruskoj kapici!</p>
+                      <p class="card-text fs-5 proizvodi-p">Cena 700din/5 komada</p>
+                      <a href="#" class="btn btn-danger fs-4 proizvodi-btn" data-bs-toggle="modal" data-bs-target="#addToCartModal4">Kupi</a>
+                  </div>
+              </div>
+          </div>
+          <div class="modal fade" id="addToCartModal4" tabindex="-1" role="dialog" aria-labelledby="addToCartModalLabel4" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="addToCartModalLabel4">Proizvod dodat u korpu</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Vaš proizvod je uspešno dodat u korpu. Da li želite da nastavite kupovinu?</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Nastavi kupovinu</button>
+                  <a href="checkout.php" class="btn btn-primary">Nastavi na kasu</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-proizvodi">
+            <div class="card h-100">
+                <img src="assets/img/cake8.jpg" class="card-img-top card-height" alt="Proizvod 5">
+                <div class="card-body">
+                    <h5 class="card-title fs-3 proizvodi-title">Plazma kolač sa malinama</h5>
+                    <p class="card-text fs-4 proizvodi-p">Probajte naš sočan Plazma kolač obogaćen svežim malinama, ubranim u našim šumama Srbije, oduševićete se!</p>
+                    <p class="card-text fs-5 proizvodi-p">Cena 550 din</p>
+                    <a href="#" class="btn btn-danger fs-4 proizvodi-btn" data-bs-toggle="modal" data-bs-target="#addToCartModal5">Kupi</a>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="addToCartModal5" tabindex="-1" role="dialog" aria-labelledby="addToCartModalLabel5" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="addToCartModalLabel5">Proizvod dodat u korpu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Vaš proizvod je uspešno dodat u korpu. Da li želite da nastavite kupovinu?</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Nastavi kupovinu</button>
+                <a href="checkout.php" class="btn btn-primary">Nastavi na kasu</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-proizvodi">
+          <div class="card h-100">
+              <img src="assets/img/cake10.jpg" class="card-img-top card-height" alt="Proizvod 6">
+              <div class="card-body">
+                  <h5 class="card-title fs-3 proizvodi-title">Waffle sa jagodama</h5>
+                  <p class="card-text fs-4 proizvodi-p">Uz naš vafl sa šumskim jagodama, doživite savršenu harmoniju ukusa hrskavog i slatkog! Zaista povoljna cena.</p>
+                  <p class="card-text fs-5 proizvodi-p">Cena 1200 din</p>
+                  <a href="#" class="btn btn-danger fs-4 proizvodi-btn" data-bs-toggle="modal" data-bs-target="#addToCartModal6">Kupi</a>
+              </div>
+          </div>
+      </div>
+      
+     
+      <div class="modal fade" id="addToCartModal6" tabindex="-1" role="dialog" aria-labelledby="addToCartModalLabel6" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="addToCartModalLabel6">Proizvod dodat u korpu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Vaš proizvod je uspešno dodat u korpu. Da li želite da nastavite kupovinu?</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Nastavi kupovinu</button>
+                <a href="checkout.php" class="btn btn-primary">Nastavi na kasu</a>
+              </div>
+            </div>
+          </div>
+        </div> 
+          </div>
+        </div>
+        <footer class="footer text-center text-white bg-dark">
+                
+            <div class="container fs-4 d-flex justify-content-between">
+              
+                <span>Poslastičarnica Aleksić &copy; 2024</span>
+                <div class="fs-3">
+                  <a href="https://www.facebook.com/" class="social-icon icons"><i class="fab fa-facebook-f text-white"></i></a>
+                  <a href="https://www.instagram.com/" class="social-icon"><i class="fab fa-instagram text-white"></i></a>
+                  <a href="rss.xml" class="social-icon"><i class="fas fa-rss text-white"></i></a>
+                  <a href="sitemap.xml" class="social-icon"><i class="fas fa-sitemap text-white"></i></a>
+               </div>
+          
+              </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>

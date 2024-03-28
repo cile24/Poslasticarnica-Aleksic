@@ -1,0 +1,136 @@
+
+@media screen and (min-width: 1230px) {
+  #cakeCarousel .carousel-inner {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 1200px) {
+    #cakeCarousel .carousel-control-prev, #cakeCarousel .carousel-control-next {
+      margin-left: 130px; 
+      margin-right: 130px; 
+    }
+  }
+ @media screen and (min-width:1234px) and (max-width:1400px){
+  #cakeCarousel .carousel-control-prev, #cakeCarousel .carousel-control-next {
+    margin-left: 70px; 
+    margin-right: 70px; 
+  }
+ }
+}
+@media screen and (max-width:1400px){
+  .card-height{
+    height:400px;
+  }
+}
+@media screen and (max-width: 992px) {
+  
+  .card-about {
+    max-width: 300px; 
+    margin: 0 auto; 
+  }
+  .card-about img {
+    max-width: 100%; 
+  }
+  .card-about .card-text {
+    font-size: 14px; 
+  }
+  .o-nama-h1{
+    font-size: 30px !important;
+  }
+  .o-nama-h3{
+    font-size:25px !important;
+    font-weight: bold;
+  }
+  .o-nama-p{
+    font-size:19px !important;
+  }
+}
+@media screen and (max-width:792px){
+  .mapa{
+    width:90% !important;
+  }
+}
+  @media screen and (max-width:767px) {
+    .img-pocetna{
+      width:100%;
+      
+    }
+    .cake{
+      box-shadow: none;
+      margin-top: 30px;
+    }
+    .proizvodi-title{
+      font-size: 20px !important;
+    }
+    .proizvodi-p{
+      font-size:18px !important;
+    }
+    .proizvodi-btn{
+      font-size:15px !important
+    }
+  }
+  @media (min-width: 767px) and (max-width: 1400px) {
+  
+    .card-text{
+      font-size:17px !important;
+    }
+    .card-title{
+      font-size: 19px !important;
+    }
+    .btn{
+      font-size: 15px !important;
+    }
+  
+  }
+  @media screen and (max-width:592px){
+    .img-pocetna{
+      width:100%;
+      height:auto;
+    }
+   .card-text{
+    font-size: 20px;
+    
+   }
+   .card-title{
+    font-size: 20px;
+    font-weight: bold;
+   }
+ 
+  }
+  @media screen and (max-width:431px){
+    .footer{
+      line-height:35px;
+      font-size:10px;
+    }
+    .mapa{
+      height:300px;
+    }
+  }
+    
+  
+ @media screen and (max-width:390px){
+   
+    .card-about{
+      width:360px;
+    }
+    .footer {
+        width:390px;
+        line-height:35px;
+      }
+      .about-image {
+        width: 100%;
+      }
+      .about-text {
+        text-align: center; 
+      }
+    .mapa{
+      width:350px;
+      margin-left:7px;
+    }
+    .cake-carousel{
+      height:250px;
+    }
+   
+  
+ }
+ 
